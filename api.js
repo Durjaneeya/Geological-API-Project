@@ -15,6 +15,10 @@ function getdata() {
           let tableData = "";
   
             tableData += `<tr>
+          <td>Location: "${data.sys.country}" - ${data.name}</td>
+          </tr>
+            
+          <tr>
           <td>Lat: ${data.coord.lat}</td>
           <td>Lat: ${data.coord.lon}</td>
           </tr>
