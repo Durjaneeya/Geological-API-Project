@@ -56,14 +56,14 @@ function getdata() {
   getdata()
   
 
-  let map;
-  function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: 28.5076558, lng: 77.02766 },
-      zoom: 9,
-    });
-  }
-  window.initMap = initMap;
+//   let map;
+//   function initMap() {
+//     map = new google.maps.Map(document.getElementById("map"), {
+//       center: { lat: 28.5076558, lng: 77.02766 },
+//       zoom: 9,
+//     });
+//   }
+//   window.initMap = initMap;
   
   let button = document.getElementById("btn");
   if(button)
